@@ -1,9 +1,29 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color:orchid;
-    }
-  }
-
-.container {
-    flex-direction: row | row-reverse | column | column-reverse;
+nav {
+  background-color: rgb(96, 175, 228);
+  display: flex;
+  flex-direction: row-reverse;
+  ;
 }
+
+a {
+  padding: 5px;
+
+}
+#nav-bar {
+  position: fixed;
+  width: 100%;
+
+}
+body {
+  background-color:rgb(219, 233, 236);
+}
+
+@media (any-hover: hover) {
+  a:hover {
+    background: blue;
+  }
+}
+
+/* .container {
+    flex-direction: row | row-reverse | column | column-reverse;
+} */
