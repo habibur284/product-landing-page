@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color:orchid;
+    }
+  }
+
+.container {
+    flex-direction: row | row-reverse | column | column-reverse;
+}
